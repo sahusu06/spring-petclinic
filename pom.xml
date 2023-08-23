@@ -444,5 +444,13 @@
       </build>
     </profile>
   </profiles>
+  <distributionManagement>
+  
+    <snapshotRepository>
+      <id>snapshot</id>
+      <name>Snapshot</name>
+      <url>http://20.244.3.245:8081/repository/NSI_JAR_REPO/</url>
+    </snapshotRepository>
+  </distributionManagement>
 
 </project>
